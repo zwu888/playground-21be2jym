@@ -7,11 +7,22 @@ This C++ template lets you get started quickly with a simple one-page playground
 
 using namespace std;
 
-int main() 
+int main()
 {
-    cout << "Hello, World!";
+     int a[54] = {};
+ 
+     int b[54] = {};
+ 
+     int* x = a;
+ 
+    int* const y = a;
+ 
+    b = x;
+ 
+    b = y;
+ 
     return 0;
-}
+ } 
 ```
 
 # Advanced usage
