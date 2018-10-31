@@ -1,7 +1,5 @@
-# Welcome!
-
-This C++ template lets you get started quickly with a simple one-page playground.
-
+# description: 
+ Arrays can be implicity converted to pointers without casting -- 4.2.  There is no implicit conversion from pointers to arrays.
 ```C++ runnable
 #include <iostream>
 
